@@ -1,18 +1,21 @@
-# Cogsandsquigs Gizmos
+# homebrew-pkgs
 
-## How do I install these formulae?
+This repository contains the formulae for all of my little things and doodads that I've made.
 
-`brew install cogsandsquigs/gizmos/<formula>`
+## Packages
 
-Or `brew tap cogsandsquigs/gizmos` and then `brew install <formula>`.
+-   [dotbak](https://github.com/cogsandsquigs/dotbak)
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
+## Installing
 
-```ruby
-tap "cogsandsquigs/gizmos"
-brew "<formula>"
+First, tap the repository:
+
+```sh
+brew tap cogsandsquigs/gizmos
 ```
 
-## Documentation
+Then, install the package you want. For example, to install `dotbak`, run the following command:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew install dotbak
+```
