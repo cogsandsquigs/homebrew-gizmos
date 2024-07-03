@@ -1,4 +1,4 @@
-# homebrew-pkgs
+# homebrew-gizmos
 
 This repository contains the formulae for all of my little things and doodads that I've made.
 
