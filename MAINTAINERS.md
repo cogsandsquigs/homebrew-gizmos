@@ -50,13 +50,3 @@ Test the package locally as described in [Testing a package locally](#testing-a-
 ### 5. Commit and push the changes
 
 Commit the changes and push them to the repository.
-
-### 6. Tag the new version of the package and push the tags.
-
-Git tags are used to track the versions of the packages. This is mostly for historical purposes, but in the future could be used so Homebrew can track the versions of the packages.
-
-Create a new tag for the package. The tag should be of the form `<updated package name>-v<version>`. If there are multiple updated packages, there should be a tag for each updated package.
-
-For example, if `dotbak` and `jundler` were updated to `0.3.2` and `0.1.0` respectively, the tags would be `dotbak-v0.3.2` and `jundler-v0.1.0`.
-
-Remember to add a tag message!
