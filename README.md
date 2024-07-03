@@ -5,6 +5,7 @@ This repository contains the formulae for all of my little things and doodads th
 ## Packages
 
 -   [dotbak](https://github.com/cogsandsquigs/dotbak)
+-   [jundler](https://github.com/cogsandsquigs/jundler)
 
 ## Installing
 
