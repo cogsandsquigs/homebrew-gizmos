@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class DotbakAT032 < Formula
 	desc "Manage and backup dotfiles with ease!"
 	homepage "https://github.com/cogsandsquigs/dotbak"
@@ -24,6 +21,6 @@ class DotbakAT032 < Formula
 		#
 		# The installed folder is not in the path, so use the entire path to any
 		# executables being tested: `system "#{bin}/program", "do", "something"`.
-		system "false"
+		system "#{bin}/dotbak", "--version"
 	end
 end
