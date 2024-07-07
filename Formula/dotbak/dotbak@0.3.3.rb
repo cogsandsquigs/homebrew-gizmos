@@ -1,8 +1,8 @@
-class Dotbak < Formula
+class DotbakAT033 < Formula
 	desc "Manage and backup dotfiles with ease!"
 	homepage "https://github.com/cogsandsquigs/dotbak"
 	license "AGPL-3.0"
-	url "https://github.com/cogsandsquigs/dotbak.git", tag: "v0.3.4" # The tag of the release you want to install
+	url "https://github.com/cogsandsquigs/dotbak.git", tag: "v0.3.3" # The tag of the release you want to install
 	head "https://github.com/cogsandsquigs/dotbak.git", branch: "main" # The unstable branch
 
 	depends_on "rust" => :build
@@ -24,3 +24,4 @@ class Dotbak < Formula
 		system "#{bin}/dotbak", "--version"
 	end
 end
+

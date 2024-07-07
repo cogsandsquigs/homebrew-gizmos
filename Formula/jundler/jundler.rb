@@ -2,7 +2,7 @@ class Jundler < Formula
 	desc "The JavaScript executable bundler for Node.js projects"
 	homepage "https://github.com/cogsandsquigs/jundler"
 	license "MIT"
-	url "https://github.com/cogsandsquigs/jundler.git", tag: "v0.2.3" # The tag of the release you want to install
+	url "https://github.com/cogsandsquigs/jundler.git", tag: "v0.2.4" # The tag of the release you want to install
 	head "https://github.com/cogsandsquigs/jundler.git", branch: "main" # The unstable branch
 
 	depends_on "rust" => :build
