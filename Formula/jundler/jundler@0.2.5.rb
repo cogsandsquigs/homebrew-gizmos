@@ -1,4 +1,4 @@
-class Jundler < Formula
+class JundlerAT025 < Formula
 	desc "The JavaScript executable bundler for Node.js projects"
 	homepage "https://github.com/cogsandsquigs/jundler"
 	license "MIT"
@@ -24,3 +24,4 @@ class Jundler < Formula
 		system "#{bin}/jundler", "--version"
 	end
 end
+
