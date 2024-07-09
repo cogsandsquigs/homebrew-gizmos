@@ -1,4 +1,4 @@
-class Dotbak < Formula
+class DotbakAT035 < Formula
 	desc "Manage and backup dotfiles with ease!"
 	homepage "https://github.com/cogsandsquigs/dotbak"
 	license "AGPL-3.0"
@@ -24,3 +24,4 @@ class Dotbak < Formula
 		system "#{bin}/dotbak", "--version"
 	end
 end
+
