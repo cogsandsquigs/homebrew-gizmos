@@ -3,7 +3,6 @@ class DotbakAT04 < Formula
 	homepage "https://github.com/cogsandsquigs/dotbak"
 	license "AGPL-3.0"
   url "https://github.com/cogsandsquigs/dotbak.git", tag: "v0.4.0-alpha.0" # The tag of the release you want to install
-  head "https://github.com/cogsandsquigs/dotbak.git", branch: "main", tag: "v0.4.0-alpha.0" # The unstable branch
 
 	depends_on "rust" => :build
 
