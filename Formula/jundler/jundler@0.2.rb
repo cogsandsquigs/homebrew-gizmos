@@ -3,7 +3,6 @@ class JundlerAT02 < Formula
 	homepage "https://github.com/cogsandsquigs/jundler"
 	license "MIT"
 	url "https://github.com/cogsandsquigs/jundler.git", tag: "v0.2.5" # The tag of the release you want to install
-	head "https://github.com/cogsandsquigs/jundler.git", branch: "main" # The unstable branch
 
 	depends_on "rust" => :build
 
